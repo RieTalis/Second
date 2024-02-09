@@ -61,6 +61,14 @@ body {
     background-size: cover;
 }
 
+.navigation__button:active {
+    opacity: 0.5;
+}
+
+.navigation__button:focus {
+    border: 1px solid black;
+}
+
 .navigation__button--first {
     font-family: TT Lakes;
     font-size: 16px;
